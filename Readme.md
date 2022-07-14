@@ -16,6 +16,11 @@ To Start with this  Node-RabbitMQ-Mongo-Mongoose-JWT Impelemenatted Project, Ple
 Note:- Before Starting with this Project, Please make sure you have installed latest stabled version of [Nodejs](https://nodejs.org/en/)  and [Docker](https://www.docker.com/)  Application in your System 
 
 
+## What I Learnt
+1. Integration of RabbitMQ with NodeJS to Create Microservice Application
+2. Creating Channel and Passing Data as Buffer and Acknowledging the Channel 
+3. Micro-Communication between the Two servers, with rabbitMQ Server 
+
 ## Follow the Below Steps
 
 
@@ -36,7 +41,6 @@ Install dependencies
 ```bash
   npm install
 ```
-
 Before Running the Product and Order App, Please make sure to run the Following Docker Command to run teh RabbitMQ Server
 
 ```bash
