@@ -1,11 +1,12 @@
 
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://pbs.twimg.com/profile_images/1223261138059780097/eH73w5lN_400x400.jpg" hieght="10%" width="10%" alt="RabbitMQ" /></a>
-  <a href="https://nodejs.org/" target="blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" hieght="10%" width="10%"  alt="NodeJS" /></a>
+<div style=" display: flex;
+    justify-content: center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://pbs.twimg.com/profile_images/1223261138059780097/eH73w5lN_400x400.jpg" hieght="20%" width="20%" alt="RabbitMQ" /></a>
+  <a href="https://nodejs.org/" target="blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" hieght="20%" width="20%"  alt="NodeJS" /></a>
 
-  <a href="https://mongoosejs.com/" target="blank"><img src="https://cms-assets.tutsplus.com/uploads/users/34/posts/29527/preview_image/mongoose.jpg" hieght="10%" width="10%"  alt="Mongooose Logo" /></a>
+  <a href="https://mongoosejs.com/" target="blank"><img src="https://cms-assets.tutsplus.com/uploads/users/34/posts/29527/preview_image/mongoose.jpg" hieght="20%" width="20%"  alt="Mongooose Logo" /></a>
 
-</p>
+</div>
 # Node-RabbitMQ-Mongo-Mongoose-JWT
 
 Its a Simple E-commerce based backend Applicatoion with RabbitMQ Integration
