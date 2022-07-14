@@ -42,8 +42,8 @@ async function connectRabbitMQ() {
 }
 connectRabbitMQ().then(() => {
     try {
-
-        channel.consume("ORDER", data => {
+    //Consuming Order Channel to get the Product details for the Order Creation
+    channel.consume("ORDER", data => {
             const {
                 products,
                 userEmail
@@ -51,7 +51,8 @@ connectRabbitMQ().then(() => {
             console.log('Consuming the Order Service', products);
             const newOrder = createOrder(products, userEmail)
             channel.ack(data)
-            channel.sendToQueue("PRODUCT", Buffer.from(JSON.stringify({ newOrder })));
+    //Sending Order creation to as a Acknowledgment in teh Product channel
+    channel.sendToQueue("PRODUCT", Buffer.from(JSON.stringify({ newOrder })));
        })
 
     } catch (error) {

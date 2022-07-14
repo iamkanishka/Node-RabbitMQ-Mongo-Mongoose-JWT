@@ -69,7 +69,9 @@ app.post("/product/create", isAuthenticated, async (req, res) => {
 app.post("/product/buy", isAuthenticated, async (req, res) => {
     const { ids } = req.body;
     const products = await Product.find({ _id: { $in: ids } });
+    //Sending Products with Details to create the Order to the Queue with Buffer Data
     channel.sendToQueue("ORDER", Buffer.from(JSON.stringify({ products, userEmail: req.user.email })));
+    //Consuming Product Channel to get the Acknowledgment of the Order Creation
     channel.consume("PRODUCT", (data) => {
         let recivedOrderAcknowledgment = JSON.parse(data.content)
         console.log('consuming Product',recivedOrderAcknowledgment);
