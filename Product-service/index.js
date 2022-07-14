@@ -12,6 +12,7 @@ app.use(express.json());
 var connection, channel, order
 
 //Connecting With Productservice Database 
+//Note:- Please Update the mongoURL as it suits you with Local or the MongoDB Atlas URL
 mongoose.connect("mongodb://localhost:27017/productservice", {
     useNewUrlParser: true,
     useUnifiedTopology: true

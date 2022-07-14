@@ -8,6 +8,7 @@ app.use(express.json());
 
 
 //Connecting With Productservice Database 
+//Note:- Please Update the mongoURL as it suits you with Local or the MongoDB Atlas URL
 mongoose.connect("mongodb://localhost:27017/authservice", {
     useNewUrlParser: true,
     useUnifiedTopology: true
