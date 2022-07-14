@@ -37,8 +37,10 @@ Install dependencies
   npm install
 ```
 
+Before Running the Product and Order App, Please make sure to run the Following Docker Command to run teh RabbitMQ Server
+
 ```bash
-  npm install
+  docker run -p 5672:5672 rabbitMQ
 ```
 
 
