@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT_ONE || 8080;
 const mongoose = require('mongoose');
-const jwt = require("jsonwebtoken")
 const amqp = require('amqplib')
 const Product = require('./product.model');
 const isAuthenticated = require('../Auth-Service/authenticated');

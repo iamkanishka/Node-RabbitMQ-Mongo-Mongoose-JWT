@@ -62,7 +62,7 @@ connectRabbitMQ().then(() => {
 
 
 /**
- * Signin Users with Providing teh JWT Token
+ * Create Order
  * @param {products} Array Array of product IDs 
  * @param {userEmail} String User's email
  */

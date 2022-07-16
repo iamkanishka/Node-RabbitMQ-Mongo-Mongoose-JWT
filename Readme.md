@@ -60,6 +60,9 @@ Start the server
   npm run start
 ```
 
+## Follow the Below Link to know detailed Steps and Info
+https://medium.com/@kanishkanaik/integrating-rabbitmq-in-nodejs-for-e-commerce-app-with-mongodb-microservices-architecture-b5223d3e0be6
+
 
 
 

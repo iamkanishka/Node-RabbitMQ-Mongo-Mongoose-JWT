@@ -77,7 +77,7 @@ app.post('/auth/register', async (req, res) => {
 
 
 /**
- * Listens the server at Proviced Port 
+ * Listens the server at Proviced Port 7070
  */
 app.listen(PORT, () => {
     console.log(`Auth-Service at ${PORT}`);
